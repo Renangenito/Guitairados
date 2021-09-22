@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-mobile.css">
+
+    <title>Guitairado</title>
+</head>
+
+<body>
+
+    <container class="principal">
+        <div class="principal-texto">
+            <h1 class="principal-titulo">GuitaIrado</h1>
+            <p class="principal-sobre">Descubra o músico que existe em você</p>
+            <p class="principal-sobre">Aprenda guitarra do zero, com a melhor metodologia!</p>
+
+            <section class="conteudo">
+                <h3 class="conteudo-titulo">CONTEÚDO DO CURSO (100% DIGITAL)</h3>
+                <ul class="conteudo-lista">
+                    <li>Musicalidade</li>
+                    <li>Técnica</li>
+                    <li>Pentas, shapes e afins</li>
+                    <li>Harmonia</li>
+                    <li>Bônus</li>
+                </ul>
+            </section>
+
+        </div>
+
+        <div class="principal-imagem">
+            <div class="photos">
+                <img class="guitarra" src="./img/fender-jimy-hendrix.png" alt="">
+                <img class="guitarra" src="./img/les-paul.png" alt="">
+                <img class="guitarra" src="./img/telecaster-fender.png" alt="">
+                
+            </div>
+
+        </div>
+        <div class="principal-form">
+            <form id="formulario-cadastro" name="form-cadastro" action="javascript: enviar()">
+                <div class="cadastro">
+
+                    <p class="cadastro-texto" >Receba o material aqui!</p>
+                    <p class="cadastro-texto-dois">É simples! Basta preencher o formulário abaixo :)</p>
+                    <input class="nome" required="required" type="text" name="nome" id="cadastro-nome"  placeholder="Nome e sobrenome">
+                    <input type="email" required="required" name="email" id="cadastro-email" placeholder="Email">
+                    <input type="tel" required="required" name="telefone" id="cadastro-telefone" placeholder="Telefone">
+                    <button class="botao" type="submit" id="botao-enviar">Receber material</button>
+
+                </div>
+                <span class="mensagem" id="mensagem-sucesso"></span>
+                <div class="icones">
+                    <img src="./img/facebook-icon.png" alt="face">
+                    <img src="./img/instagram-icon.png" alt="insta">
+                    <img src="./img/linkedin-icone.png" alt="in">
+                </div>
+
+            </form>
+        </div>
+    </container>
+    <script src="./validaFormulario.js"></script>
+</body>
+
+</html>

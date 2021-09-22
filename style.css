@@ -1,0 +1,221 @@
+body{
+    background: url("./img/gradient.jpg");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1100px;
+    height: 600px;
+    background-color: #601002; 
+    border-radius: 15px;   
+}
+.principal-texto{
+    width: 436px;
+    height: 100%;
+    background: url("./img/clave\ de\ sol.jpg") no-repeat;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
+}
+
+ .principal-titulo{
+    margin-top: 33px;
+    margin-left: 100px;
+    color: #ffe501;
+    font-family: 'Satisfy', cursive;
+    font-size: 70px;
+    margin-bottom: 40px;;
+}
+.principal-sobre{
+    color: #fcea9d;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    margin-left: 90px;
+   
+}
+
+.conteudo{
+    margin-top: 80px;
+    margin-left: 40px;
+  
+}
+
+.conteudo-titulo{
+    font-size: 16px;
+    text-align: center;
+    color: #fcea9d;
+    margin-bottom: 15px;
+}
+
+.conteudo-lista li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: #fcea9d;
+    margin-bottom: 5px;
+    list-style-type: disc;
+    margin-left: 148px;
+}
+
+
+.principal-imagem{
+    width: 228px;
+    height: 100%;
+    background: none;
+    overflow: hidden;
+}
+
+.principal-imagem .photos{
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.principal-imagem .photos img{
+    width: 19.9%;
+}
+
+@keyframes animacao{
+    0%  {margin-left: 0%;}
+   20% {margin-left: 0%;}
+   25% {margin-left: -100%;}
+   45% {margin-left: -100%;}
+   50% {margin-left: -200%;}
+   70% {margin-left: -200%;}
+   75% {margin-left: -100%;}
+   95% {margin-left: -100%;}
+   100% {margin-left: 0%;}
+   
+}
+
+.principal-form{
+    width: 436px;
+    height: 100%;
+   
+     
+}
+
+.cadastro{
+    width: 380px;
+    height: 350px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    background-color: #b69918;
+    border-radius: 15px;
+    margin-left: 8px;
+   
+}
+
+.cadastro-texto{
+    margin: 0;
+    background-color: #887006;
+    padding-top: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: floralwhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    padding-left: 25px;
+    padding-bottom: 8px;
+}
+
+.cadastro-texto-dois{
+    margin: 0;
+    background-color: #887006;
+    color: floralwhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.nome{
+    margin-top: 30px;
+}
+
+.cadastro input{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    border: none;
+    border-radius: 4px;
+    
+}
+
+.cadastro input::placeholder{
+    color: dimgray;
+    font-size: 16px;
+}
+
+.botao{
+    width: 300px;
+    height: 50px;
+    margin-left: 40px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 3px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #e80505;
+    color: rgb(248, 235, 182);
+}
+
+.botao:hover{
+    background-color: rgb(200, 0, 0);
+}
+
+.botao:active{
+    background-color: rgb(225, 0, 0);
+    width: 303px;
+    height: 53px;
+}
+
+.guitarra{
+    margin-top: 38px;
+    width: 228px;
+    height: 524px;
+}
+
+.icones{
+    display: flex;
+    flex-direction: row;
+    margin-top: 115px;
+    margin-left: 200px;
+}
+
+.icones img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.icones img:hover{
+    width: 52px;
+    height: 52px;
+}
+
+.icones img:active{
+    width: 54px;
+    height: 54px;
+}
+
+/* Mensagem de sucesso */
+.mensagem{
+    float: right;
+    font-weight: bold;
+    font-size: 16px;
+    color: bisque;
+}
