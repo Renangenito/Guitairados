@@ -212,10 +212,39 @@ body{
     height: 54px;
 }
 
-/* Mensagem de sucesso */
-.mensagem{
-    float: right;
+/* Segunda página sucesso*/
+
+.principal-pagina-sucesso{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1100px;
+    height: 600px;
+    background-color: #601002; 
+    border-radius: 15px;   
+}
+.principal-titulo-dois{
+    margin-top: 118px;
+    margin-left:36px;
+    color: #ffe501;
+    font-family: 'Satisfy', cursive;
+    font-size: 70px;
+    margin-bottom: 40px;
+}
+.principal-sobre-dois{
+    color: #fcea9d;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    margin-left: 30px;
     font-weight: bold;
-    font-size: 16px;
-    color: bisque;
+   
+}
+
+.principal-texto-dois{
+    width: 498px;
+    height: 100%;
+    background: url("./img/clave\ de\ sol.jpg") no-repeat;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
 }

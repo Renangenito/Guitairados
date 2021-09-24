@@ -75,4 +75,43 @@
         margin-top: 80px;
     }
 
+    /* Segunda página responsividades */
+
+    .principal-pagina-sucesso{
+       
+        display: flex;
+        flex-direction: column;
+        width: 480px;
+        padding-top: 332px;
+        background-color: #601002; 
+         
+    }
+    .principal-titulo-dois{
+       
+        color: #ffe501;
+        font-family: 'Satisfy', cursive;
+        font-size: 62px;
+        margin-bottom: 40px;
+    }
+    .principal-sobre-dois{
+        color: #fcea9d;
+        font-family: 'Indie Flower', cursive;
+        font-size: 25px;
+        font-weight: bold;
+        margin-left: 38px;
+       
+    }
+    
+    .principal-texto-dois{
+        width: 498px;
+        height: 540px;
+        background: url("./img/clave\ de\ sol.jpg") no-repeat;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        
+    }
+    .principal-imagem-dois{
+        display: none;
+    }
+
 }
