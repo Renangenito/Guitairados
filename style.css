@@ -66,7 +66,7 @@ body{
 }
 
 
-.principal-imagem{
+.principal-imagem {
     width: 228px;
     height: 100%;
     background: none;
@@ -247,4 +247,22 @@ body{
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     
+}
+
+.principal-imagem-dois {
+    width: 228px;
+    height: 100%;
+    background: none;
+    overflow: hidden;
+}
+
+.principal-imagem-dois .photos{
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.principal-imagem-dois .photos img{
+    width: 19.9%;
 }
